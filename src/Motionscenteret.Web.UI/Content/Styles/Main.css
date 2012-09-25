@@ -43,6 +43,29 @@ form input.button
     padding:4px 0px;    
 }
 
+h1, h2
+{
+    color: #D67400;
+}
+
+h1
+{
+    font-size: 26px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+h2
+{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+p
+{
+    margin: 10px 0;
+}
+
 
 .container
 {
@@ -162,28 +185,6 @@ nav.main-navigation a:hover span
 }
 
 
-article.home h1, article.home h2
-{
-    color: #D67400;
-}
-
-article.home h1
-{
-    font-size: 26px;
-    margin: 10px 0;
-    font-weight: normal;
-}
-
-article.home h2
-{
-    font-size: 20px;
-    margin: 10px 0px;
-}
-
-article.home p
-{
-    margin: 10px 0;
-}
 
 article.home ul
 {
@@ -199,7 +200,7 @@ article.home ul li
     margin-bottom:20px;
 }
 
-.section-box h1
+.round-cornor h1
 {
     background-image:url("../GFX/Arrow.png");
     background-repeat:no-repeat;
@@ -208,6 +209,7 @@ article.home ul li
     margin-top:3px;
     font-size:14px;
     color:White;
+    margin:3px 0px 0px 0px;
     font-weight:normal;
 }
 
@@ -324,6 +326,18 @@ footer
     width:96%;
 }
 
+.section-box form .full .controls
+{
+    clear:left;
+    float:none !important;
+    width:100% !important;
+}
+
+.section-box form .full .controls textarea
+{
+    width:96% !important;
+}
+
 .section-box form .control-group .checkbox
 {
     float:right;
@@ -333,7 +347,61 @@ footer
     float:right;
 }
 
+.small-section-box .round-cornor
+{
+    width:180px;
+}
 
+
+.prices .item
+{
+    overflow:hidden;
+}
+
+.prices .item .left
+{
+    float:left;
+}
+
+.prices .item .right
+{
+    margin-top:10px;
+    float:right ;
+}
+
+.prices .item .right span
+{
+    font-size:24px;
+    color:#D67400;
+}
+
+.prices .item .right span small
+{
+    font-size:14px;
+}
+
+.activities h1
+{
+    margin-bottom:30px;
+}
+
+.activities h2
+{
+    text-transform:uppercase;
+}
+
+.activities .item
+{
+    
+}
+
+.activities .item img
+{
+    width:150px;
+    height:150px;
+    float:left;
+    margin-right:10px;
+}
 
 /* 
 

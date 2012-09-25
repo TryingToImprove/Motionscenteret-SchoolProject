@@ -80,7 +80,8 @@
     <Content Include="Content\GFX\topbar-bg.png" />
     <Content Include="Content\Styles\Main.css" />
     <Content Include="Global.asax" />
-    <Content Include="Prototype\Become-memer.html" />
+    <Content Include="Prototype\Become-member.html" />
+    <Content Include="Prototype\Contact.html" />
     <Content Include="Prototype\Default.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
