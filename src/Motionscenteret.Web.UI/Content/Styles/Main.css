@@ -1,0 +1,414 @@
+﻿/* CSS Resets */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, q, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+article, aside, figure, figure img, figcaption, hgroup, footer, header, nav, section, video, object
+{
+    display: block;
+}
+a img
+{
+    border: 0;
+}
+figure
+{
+    position: relative;
+}
+figure img
+{
+    width: 100%;
+}
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, Sans-Serif;
+    line-height: 1.7em;
+}
+
+form input.button
+{
+    background-color:#D67400;
+    width:80px;
+    color:White;
+    border:0px;
+    text-transform:lowercase;
+    padding:4px 0px;    
+}
+
+
+.container
+{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.top-bar
+{
+    background-image: url("../GFX/topbar-bg.png");
+    overflow: hidden;
+    background-color: #dbdbd9;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.top-bar nav.sub-navigation
+{
+    float: right;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-image: url("../GFX/subnavigation-bg.png");
+}
+
+.top-bar nav.sub-navigation a
+{
+    width: 80px;
+    display: block;
+    color: White;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    text-align: center;
+    padding: 4px 0;
+}
+
+.top-bar nav.sub-navigation span
+{
+    padding: 4px 0;
+    float: left;
+    display: block;
+    width: 3px;
+}
+
+.top-bar .logo
+{
+    float: left;
+    color: #D67400;
+    text-decoration: none;
+    margin: 5px 0 5px 10px;
+}
+
+.top-bar .logo hgroup h1
+{
+    font-size: 32px;
+    border-bottom: 2px solid #CCC;
+    line-height: 42px;
+}
+.top-bar .logo hgroup h2
+{
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.top-bar form
+{
+    margin-top: 10px;
+    float: right;
+}
+
+nav.main-navigation
+{
+    clear: both;
+    background-color: #808080;
+    overflow: hidden;
+}
+
+nav.main-navigation a:first-child
+{
+    padding: 0 0;
+    padding-right: 4px;
+}
+
+nav.main-navigation a.last
+{
+    background-image: none;
+}
+
+nav.main-navigation a
+{
+    float: left;
+    display: block;
+    background-image: url("../GFX/dot.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 0px 4px;
+    text-transform: uppercase;
+    color: White;
+    text-decoration: none;
+}
+nav.main-navigation a span
+{
+    display: block;
+    padding: 6px 10px;
+}
+
+nav.main-navigation a:hover span
+{
+    color: #000;
+    background-color: #CCC;
+}
+
+
+.banner
+{
+    margin: 0px 0px 10px;
+}
+
+
+article.home h1, article.home h2
+{
+    color: #D67400;
+}
+
+article.home h1
+{
+    font-size: 26px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+article.home h2
+{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+article.home p
+{
+    margin: 10px 0;
+}
+
+article.home ul
+{
+    margin-left: 50px;
+}
+article.home ul li
+{
+    margin-left: 30px;
+}
+
+.section-box
+{
+    margin-bottom:20px;
+}
+
+.section-box h1
+{
+    background-image:url("../GFX/Arrow.png");
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left:10px;
+    margin-top:3px;
+    font-size:14px;
+    color:White;
+    font-weight:normal;
+}
+
+.section-box .well  
+{
+    margin-top:10px;
+    border-radius:5px;
+    background-image:url("../GFX/well-bg.png");
+    background-repeat:repeat-x;
+    border:1px solid #808080;
+    padding:10px;   
+}
+
+.section-box .table div
+{
+    overflow:hidden;
+    line-height:25px;
+}
+
+.section-box .table div span
+{
+    float:left;
+}
+
+.section-box .table div strong
+{
+    float:right ;
+    text-align:right;
+}
+
+.section-box .table
+{
+}
+
+.round-cornor
+{
+    overflow:hidden;
+    background-color:#d67400;
+}
+.round-cornor .middle
+{
+    float:left;
+}
+
+.round-cornor .left
+{   
+    float:left;
+    width:8px;
+    height:27px;
+    background-image:url("../GFX/roundcornor-left.png");
+}
+.round-cornor .right
+{
+    width:8px;
+    float:right;
+    height:27px;
+    background-image:url("../GFX/roundcornor-right.png");
+}
+
+/* ROW */
+.row
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.row .col
+{
+    width: 32.3333333333%;
+    float: left;
+    margin-left:1%;
+}
+
+.row .col2
+{
+    width: 65.6666666666%;
+    float: left;
+    margin-right:    1%;
+}
+
+
+footer
+{
+    background-color: #CCC;
+    border-top: 1px solid #808080;
+    height: 78px;
+    border-bottom: 1px solid #808080;
+}
+
+.section-box form
+{
+}
+
+.section-box form .control-group
+{
+    overflow:hidden;
+    margin:5px 0;
+}
+
+.section-box form .control-group label
+{
+    float:left;
+}
+
+.section-box form .control-group .controls
+{
+    float:right;
+    width:54%;
+    text-align:right;
+}
+
+.section-box form .control-group .controls input
+{
+    width:96%;
+}
+
+.section-box form .control-group .checkbox
+{
+    float:right;
+}
+.section-box form .form-actions
+{
+    float:right;
+}
+
+
+
+/* 
+
+
+    LOGO: 32px, 24px
+
+    FOOTER: 11px
+
+    
+*/
+
+@media only screen and (max-width: 900px)
+{
+
+    .container
+    {
+        width: 100%;
+    }
+
+    .row .col
+    {
+        width: 27.3333%;
+        padding:0 3%;
+        margin-left:0;
+    }
+    .row .col2
+    {
+        width: 60.3333%;
+        padding:0 3%;
+        margin-right:0;
+    }
+}
+
+
+@media handheld, only screen and (max-width: 767px)
+{
+    .container
+    {
+        width: 100%;
+    }
+
+    .top-bar form
+    {
+        display: none;
+    }
+
+    .top-bar .logo
+    {
+        margin: 10px;
+        display: block;
+    }
+
+    .top-bar nav.sub-navigation
+    {
+        float: none;
+        overflow: hidden;
+        width: 100%;
+        background-image: none;
+        background-color: #999999;
+    }
+    .top-bar nav.sub-navigation a
+    {
+        padding: 1%;
+        width: 30%;
+    }
+    .top-bar nav.sub-navigation span
+    {
+        display: none;
+    }
+
+    .row .col, .row .col2
+    {
+        width: 94%;
+        padding:0 3%;
+        float: none;
+    }
+
+}

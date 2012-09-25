@@ -68,7 +68,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\GFX\arrow.png" />
+    <Content Include="Content\GFX\banner.jpg" />
+    <Content Include="Content\GFX\dot.png" />
+    <Content Include="Content\GFX\well-close-bg.gif" />
+    <Content Include="Content\GFX\well-open-bg.gif" />
+    <Content Include="Content\GFX\roundcornor-left.png" />
+    <Content Include="Content\GFX\roundcornor-right.png" />
+    <Content Include="Content\GFX\sectionbox-header-bg.png" />
+    <Content Include="Content\GFX\subnavigation-bg.png" />
+    <Content Include="Content\GFX\topbar-bg.png" />
+    <Content Include="Content\Styles\Main.css" />
     <Content Include="Global.asax" />
+    <Content Include="Prototype\Become-memer.html" />
     <Content Include="Prototype\Default.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
